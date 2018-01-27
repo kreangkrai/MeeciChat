@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "785488789884",
+    "firebase_url": "https://meecichat.firebaseio.com",
+    "project_id": "meecichat",
+    "storage_bucket": "meecichat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785488789884:android:1540b2f6dee0c7f7",
+        "android_client_info": {
+          "package_name": "mee.contrologic.com.meecichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785488789884-o1cgtbb1cdnvtc1iqnbpg35b8h2n5knb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mee.contrologic.com.meecichat",
+            "certificate_hash": "436497ef950b2cf45bf1db91921689a4978447e5"
+          }
+        },
+        {
+          "client_id": "785488789884-99rpav86lh11dg6ffnfneak79cvtg6c8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDAbRei9eNP43wKjTWLzST2beW0AV5sZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785488789884-99rpav86lh11dg6ffnfneak79cvtg6c8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
