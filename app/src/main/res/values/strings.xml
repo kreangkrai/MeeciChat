@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Meeci Chat</string>
     <string name="register_th">สมัครสมาชิก</string>
+
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
 </resources>
