@@ -1,5 +1,6 @@
 package mee.contrologic.com.meecichat.fragment;
 
+import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -88,6 +89,12 @@ public class RegisterFragment extends Fragment {
 
     private void uploadValuetoFirebase() {
 
+
+        final ProgressDialog progressDialog = new ProgressDialog(getActivity());
+        progressDialog.setTitle("Please wait few minute...");
+        progressDialog.setMessage("Try to save your value to firebase");
+        progressDialog.show();
+
 //        Initial View
         EditText nameEditText = getView().findViewById(R.id.edtName);
         EditText emailEditText = getView().findViewById(R.id.edtEmail);
@@ -114,6 +121,8 @@ public class RegisterFragment extends Fragment {
                             if(task.isSuccessful())
                             {
                                 Toast.makeText(getActivity(),"Register Success",Toast.LENGTH_LONG).show();
+
+                                progressDialog.dismiss();
 
                                 FirebaseUser firebaseUser = firebaseAuth.getCurrentUser();
                                 String userUIDstring = firebaseUser.getUid();
